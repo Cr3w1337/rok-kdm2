@@ -35,7 +35,7 @@ updates:
       interval: "daily"
 
   # Enable version updates for Docker
-  - package-ecosystem: "docker"
+  - package-ecosystem: "php"
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     # Check for updates once a week
