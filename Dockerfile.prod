@@ -16,7 +16,7 @@ COPY docker/php/uploads.ini /usr/local/etc/php/conf.d/uploads.ini
 CMD ["php-fpm"]
 
 
-FROM composer:1.8.4 as composer
+FROM composer:2.5.8 as composer
 
 RUN rm -rf /var/www && mkdir /var/www
 WORKDIR /var/www
