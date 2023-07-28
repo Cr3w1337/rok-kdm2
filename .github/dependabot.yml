@@ -33,3 +33,5 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "daily"
+
+The property '#/updates/2/package-ecosystem' value "php" did not match one of the following values: npm, bundler, composer, maven, mix, cargo, gradle, nuget, gomod, docker, elm, gitsubmodule, github-actions, pip, terraform, pub, swift
