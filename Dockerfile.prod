@@ -34,7 +34,7 @@ COPY . /var/www
 RUN composer dump-autoload --classmap-authoritative
 
 
-FROM node:20.5.0 as node
+FROM node:20.6.1 as node
 
 RUN rm -rf /var/www && mkdir /var/www
 WORKDIR /var/www
