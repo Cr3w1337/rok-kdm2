@@ -3,7 +3,7 @@
         "@symfony/stimulus-bridge": "^2.1.0",
         "@symfony/webpack-encore": "^0.32.0",
         "bootstrap": "^4.6.2",
-        "core-js": "^3.31.1",
+        "core-js": "^3.33.1",
         "jquery": "^3.7.0",
         "node-sass": "^9.0.0",
         "popper.js": "^1.16.1",
